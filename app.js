@@ -34,7 +34,6 @@ const limiter = rateLimit({
 app.use('/', limiter);
 
 // Body parser(i.e reading data from the body into "req.body")::
-// *************oseun somefun said bodyParser& express.json() are the same**********
 app.use(
     bodyParser.urlencoded({
         extended: true
